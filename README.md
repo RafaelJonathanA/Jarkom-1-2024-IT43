@@ -150,3 +150,78 @@ Lalu menyiapkan JARM Fingerprint dan mencoba menjalankan JARM ke domain yang ing
 Lalu eksekusi ke PORT
 ![WhatsApp Image 2024-09-18 at 21 49 21_f8e3621a](https://github.com/user-attachments/assets/bc5ccdc7-163e-4d45-b93e-ee50f49b4a24)
 > Pertanyaan dan peraihan flag
+
+## _Soal FTP Login_
+
+#### Pertanyaan
+
+- Apa username yang berhasil digunakan untuk FTP login?
+- Apa password yang berhasil digunakan untuk FTP login?
+
+
+---
+
+Pertama saya mendownload file yang ada
+Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya langsung mencari di setiap file yang ada dan saya menemukan usernamenya dan password yang digunakan 
+![FTP Login](https://github.com/user-attachments/assets/5c80992d-f74f-4501-858f-4e62b237bf28)
+
+## _Soal Corporate Breach _
+
+#### Pertanyaan
+
+- Siapa nama attacker?
+- Apa email yang digunakan untuk login?
+- Apa password yang digunakan untuk login?
+
+---
+
+Pertama saya mendownload file yang ada
+Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya cari mulai dari depan sampai ke paling akhir di file awal terdapat perkenalan dirinya sehingga saya mendapatkan nama attacker secara sekilas dan menemukan ada satu file yang berbeda pola formatnya dan langsung ketemu email serta password yang digunakan 
+
+![breach](https://github.com/user-attachments/assets/25294662-9d4f-4b10-9814-01ead716dc76)
+
+## _Soal Ez _
+
+#### Pertanyaan
+
+- Temukan jawaban dari log tersebut
+- Port berapa yang digunakan service tersebut
+
+---
+
+Pertama Saya mendownload file yang ada lalu saya langsung menggunakan statistic dengan pilihan conversation lalu saya mengecek di file-file dan saya langsung menemukan jawabannya dan disaat yang sama portnya juga secara langsung terlihat 
+
+![ez](https://github.com/user-attachments/assets/0dc5348a-e7fc-4523-b91f-ef0fa72d06a9)
+
+
+## _Soal Malicious Code_
+
+#### Pertanyaan
+
+- Berapa total attempt attacker melakukan dir listing?
+- Apa endpoint yang berhasil attacker dapatkan untuk login page?
+- Pada attempt ke berapa attacker menemukan email dan password yang benar?
+- Apa jawaban dari pertanyaan sang attacker?
+
+---
+
+Pertama saya buka file yang sama seperti saat mengerjakan soal corporate breach lalu saya menggunakan menu statistic dan conversation namun saya hanya menemukan pertanyaan yang berupa kode ascii yang perlu di ubah terlebih dahulu agar menjadi string yang dapat dibaca sehingga saya menggunakan filter http.request.method == "GET" untuk mendapatkan semua yang berupa request get yang kemudian dibuka melalui statistic untuk melihat jumlahnya, untuk endpoint saya menemukannya dengan filter http.request.method == "POST" untuk mendapatkan semua yang berupa request post yang kemudian saya dapatkan endpointnya, untuk yang terakhir setelah saya ubah saya dapatkan sebuah pertanyaan warna kesukaan pembuat soal dengan hint sweater, sehingga saya menjawab warna merah 
+![malcious](https://github.com/user-attachments/assets/3f875dde-3cfe-4340-9e03-40ebf23e1782)
+
+## _Soal Malicious Code_
+
+#### Pertanyaan
+
+- Apa DBMS yang digunakan pada server tersebut?
+- Di port berapa DBMS server tersebut berjalan?
+- OS apa yang digunakan untuk server tersebut?
+- Apa credentials username DBMS valid yang digunakan?
+- Apa nama database yang digunakan?
+- Ada berapa banyak users dalam database tersebut?
+- Apa email yang digunakan oleh admin?
+- Apa password yang digunakan oleh admin? 
+---
+Pertama saya membuka file gajah terbang lalu saya menggunakan statistic dan conversation untuk melihat isi dari file-filenya lalu saya mendapatkan namanya psql dan setelah itu saya mencari portnya dengan melihat dari tampilan dengan ada port berapa saja dan saya coba satu-satu sehigga mendapatkan port 6969 yang benar lalu di dalam file bila di perhatikan juga ada Debian sebagai OSnya lalu untuk nama username DBMS itu juga terlihat dari file yang ada langsung berapa pada bagian paling atas lalu untuk nama database juga sama langsung terlihat di bagian atas, jumlah user saya dapatkan dari menghitung manual pada isi file ada berapa banyak, dan unutuk password saya dapatkan dari file yang kemmudian harus di didecripsikan terlebihh dahulu
+
+
+![Gajah Terbang](https://github.com/user-attachments/assets/7ea8c5ea-c257-4704-9d21-42e108c212f2)
