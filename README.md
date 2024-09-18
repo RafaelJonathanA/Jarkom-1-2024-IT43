@@ -163,7 +163,28 @@ Lalu eksekusi ke PORT
 
 Pertama saya mendownload file yang ada
 Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya langsung mencari di setiap file yang ada dan saya menemukan usernamenya dan password yang digunakan 
+
+Flag : JarkomIT{n0t_s0_s3cur3_ftp_sdFFEPlcdJNaE3Tn2fs1tpdihL0Y5goLWYNHcMsWAx4HKvKyV9j9G1N}
+
 ![FTP Login](https://github.com/user-attachments/assets/5c80992d-f74f-4501-858f-4e62b237bf28)
+
+## _Soal Pegawai Negeri Sebelah_
+
+#### Pertanyaan
+
+- Siapa yang memiliki password nNnM%coQuF?
+- Apa jabatan dari Taufan Kuswandari?
+- Siapa yang paling awal di list?
+- Apa password paling akhir dari list?
+
+
+---
+
+Pertama saya mendownload filenya lalu saya membuka dan menggunakan statistic dan conversation untuk melihat filenya lalu saya akan mencari password tersebut dengan searchnya lalu nama Taufan Kuswandari lalu melihat nama paling awal di list dan password paling akhir di list sehingga mendapatkan flagnya 
+
+Flag : JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_Hiow4mM5G172RSwBA8w8YJhWLL30AqhvwbyvDZrMNYRSAVwddw9vM4h}
+
+[Pegawai Sebelah](https://github.com/user-attachments/assets/8bb7cb94-de77-4da2-a7ff-508f7b28285c)
 
 ## _Soal Corporate Breach _
 
@@ -178,6 +199,8 @@ Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya 
 Pertama saya mendownload file yang ada
 Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya cari mulai dari depan sampai ke paling akhir di file awal terdapat perkenalan dirinya sehingga saya mendapatkan nama attacker secara sekilas dan menemukan ada satu file yang berbeda pola formatnya dan langsung ketemu email serta password yang digunakan 
 
+Flag : JarkomIT{supp0rt_k0k_l3m4h_bg_cv09tgcni7sDpEEaO4oyDxmfAG6XNddtZ7zBRYNW4NxDWSsDm3YwG6}
+
 ![breach](https://github.com/user-attachments/assets/25294662-9d4f-4b10-9814-01ead716dc76)
 
 ## _Soal Ez _
@@ -190,6 +213,8 @@ Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya 
 ---
 
 Pertama Saya mendownload file yang ada lalu saya langsung menggunakan statistic dengan pilihan conversation lalu saya mengecek di file-file dan saya langsung menemukan jawabannya dan disaat yang sama portnya juga secara langsung terlihat 
+
+Flag : JarkomIT{BiAr_aman_Pake_sSh_XhI4JDwoO9pxCSLUx9Rh3hrE43zSBorh9mFRyADDwCE0X0pq5yxXEZ}
 
 ![ez](https://github.com/user-attachments/assets/0dc5348a-e7fc-4523-b91f-ef0fa72d06a9)
 
@@ -206,9 +231,12 @@ Pertama Saya mendownload file yang ada lalu saya langsung menggunakan statistic 
 ---
 
 Pertama saya buka file yang sama seperti saat mengerjakan soal corporate breach lalu saya menggunakan menu statistic dan conversation namun saya hanya menemukan pertanyaan yang berupa kode ascii yang perlu di ubah terlebih dahulu agar menjadi string yang dapat dibaca sehingga saya menggunakan filter http.request.method == "GET" untuk mendapatkan semua yang berupa request get yang kemudian dibuka melalui statistic untuk melihat jumlahnya, untuk endpoint saya menemukannya dengan filter http.request.method == "POST" untuk mendapatkan semua yang berupa request post yang kemudian saya dapatkan endpointnya, untuk yang terakhir setelah saya ubah saya dapatkan sebuah pertanyaan warna kesukaan pembuat soal dengan hint sweater, sehingga saya menjawab warna merah 
+
+Flag : Benar! Ini flag-mu: JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_ZytXVTnBwhoyFIvyfW3Lk8naIC0T7J2hnXY5I9FDCm5yOQLiK73UL0R}
+
 ![malcious](https://github.com/user-attachments/assets/3f875dde-3cfe-4340-9e03-40ebf23e1782)
 
-## _Soal Malicious Code_
+## _Soal Gajah terbang_
 
 #### Pertanyaan
 
@@ -223,5 +251,6 @@ Pertama saya buka file yang sama seperti saat mengerjakan soal corporate breach 
 ---
 Pertama saya membuka file gajah terbang lalu saya menggunakan statistic dan conversation untuk melihat isi dari file-filenya lalu saya mendapatkan namanya psql dan setelah itu saya mencari portnya dengan melihat dari tampilan dengan ada port berapa saja dan saya coba satu-satu sehigga mendapatkan port 6969 yang benar lalu di dalam file bila di perhatikan juga ada Debian sebagai OSnya lalu untuk nama username DBMS itu juga terlihat dari file yang ada langsung berapa pada bagian paling atas lalu untuk nama database juga sama langsung terlihat di bagian atas, jumlah user saya dapatkan dari menghitung manual pada isi file ada berapa banyak, dan unutuk password saya dapatkan dari file yang kemmudian harus di didecripsikan terlebihh dahulu
 
+Flag : JarkomIT{Gy4tT_M5g_4U_GdGpusLONVeRns0bsCPDYOLvw5k1rq9fHseecDt9LCorWGnovNZgmBiD1}
 
 ![Gajah Terbang](https://github.com/user-attachments/assets/7ea8c5ea-c257-4704-9d21-42e108c212f2)
