@@ -1,3 +1,1 @@
-# Jarkom-1-2024-IT43
-
-### Test
+# Write-up Praktikum Modul 1 Jaringan Komputer
