@@ -83,19 +83,19 @@ Dengan filtering paket dengan query `ftp.response.code == 220` yang merupakan re
 ```
 ftp.response.code == 220
 ```
-![image](https://github.com/user-attachments/assets/d5dd91f7-feea-489a-afdc-328dc3798cf8)
+![d5dd91f7-feea-489a-afdc-328dc3798cf8](https://github.com/user-attachments/assets/e50c6762-c0ba-49dd-aab3-b8d9eff4fcde)
 > Dari tampilan capture sudah memberikan banner yang menampilkan service ver 
 
 Mencari paket yang diupload menggunakan query `ftp.request.command == "STOR"`
 ```
 ftp.request.command == "STOR"
 ```
-![image](https://github.com/user-attachments/assets/d33fad29-5ca2-425a-a35f-6d911c372564)
+![d33fad29-5ca2-425a-a35f-6d911c372564](https://github.com/user-attachments/assets/04da3c6f-87f9-4d46-9fd2-4493a653e512)
 > g0tcha.cpp
 
 Lalu dengan Export code FTP data dan mengcompile file tersebut mendapatkan pesan rahasia
 
-![WhatsApp Image 2024-09-18 at 21 50 58_bf8504b9](https://github.com/user-attachments/assets/b1232445-88d4-4b32-bedd-94aa15a4249d)
+![b1232445-88d4-4b32-bedd-94aa15a4249d](https://github.com/user-attachments/assets/1c7bc882-9944-4862-8cda-240fea3e52e6)
 > Pertanyaan dan peraihan flag
 
 
@@ -111,22 +111,22 @@ Lalu dengan Export code FTP data dan mengcompile file tersebut mendapatkan pesan
 
 ---
 
-![image](https://github.com/user-attachments/assets/4e4a8053-5964-4ccf-83df-9c90bc584e40)
+![4e4a8053-5964-4ccf-83df-9c90bc584e40](https://github.com/user-attachments/assets/618611ed-2020-47db-a14e-eb1c2f7fa0b2)
 
 Pada capture tersebut terdapat komunikasi TCP 172.21.80.1 melakukan POST ke 172.21.88.207.
 
-![image](https://github.com/user-attachments/assets/965086b8-84ff-458b-b524-7b699b6ffe43)
+![965086b8-84ff-458b-b524-7b699b6ffe43](https://github.com/user-attachments/assets/237bace2-7fb2-4f16-a846-f260db408809)
 > Terlihat bahwa Source dan Destination, 1917 dipakai komunikasi HTTP ini. 
 Dan dari capture tersebut sudah memberikan POST request ke ww1.php dengan data user dan pass. Menunjukkan jika itu adalah endpoint login.
 
-![image](https://github.com/user-attachments/assets/9c9cef7c-51eb-46c6-9964-9ed9c96789de)
+![9c9cef7c-51eb-46c6-9964-9ed9c96789de](https://github.com/user-attachments/assets/749c99ef-c55b-4c36-b353-c192af4eb97f)
 
 Dan pada bari User-Agent di heaeder http ini ada jejak dari toolsnya, `ffuf-v2.1.0-dev`
 
-![image](https://github.com/user-attachments/assets/911d7fe1-3d6b-4c61-b5a0-7a9d80bd85b5)
+![911d7fe1-3d6b-4c61-b5a0-7a9d80bd85b5](https://github.com/user-attachments/assets/7f2b6e6d-13f7-4417-b666-44e4a24c426d)
 > Mencari kredensial login attacker dengan filtering dan mendapatkan hasil
 
-![WhatsApp Image 2024-09-18 at 21 50 00_3978c240](https://github.com/user-attachments/assets/149e947b-d9e7-419d-ad28-c3b7654b8db7)
+![149e947b-d9e7-419d-ad28-c3b7654b8db7](https://github.com/user-attachments/assets/13c32583-895f-4857-8a2c-e7c2118b7c0d)
 > Pertanyaan dan peraihan flag
 
 ## _Soal Rizzset_
@@ -139,16 +139,16 @@ Dan pada bari User-Agent di heaeder http ini ada jejak dari toolsnya, `ffuf-v2.1
 
 ---
 
-![image](https://github.com/user-attachments/assets/7f04d8cd-14e6-435e-9e08-b2ac990055b4)
+![7f04d8cd-14e6-435e-9e08-b2ac990055b4](https://github.com/user-attachments/assets/7525c132-0a12-498d-9f2a-4c0f78af00a1)
 
 Terlihat dari hasil capture diatas ada query dns ke `www.its.ac.id`. dan IP nya yaitu `103.94.189.5`
 
 Lalu menyiapkan JARM Fingerprint dan mencoba menjalankan JARM ke domain yang ingin di fingerprint
-![WhatsApp Image 2024-09-18 at 21 48 58_01b60c29](https://github.com/user-attachments/assets/d2084b76-a37b-4848-a21c-fa463bc9dcbd)
+![d2084b76-a37b-4848-a21c-fa463bc9dcbd](https://github.com/user-attachments/assets/fc5b26de-7f55-4a1e-afcd-16468e060506)
 > Hasil JARM Fingerprint
 
 Lalu eksekusi ke PORT
-![WhatsApp Image 2024-09-18 at 21 49 21_f8e3621a](https://github.com/user-attachments/assets/bc5ccdc7-163e-4d45-b93e-ee50f49b4a24)
+![bc5ccdc7-163e-4d45-b93e-ee50f49b4a24](https://github.com/user-attachments/assets/80d4af01-647d-44f7-bec2-94379e11bb3b)
 > Pertanyaan dan peraihan flag
 
 
