@@ -29,18 +29,18 @@ tcp
 ```
 Disini saya sudah pengfilteran `tcp`1 dan dari hasil capture ini saya mencari manual dimana isi paket/file yang berbeda dari yang lain.
 
-![image](https://github.com/user-attachments/assets/697f5863-c757-4e20-a886-4e36a3cbfe6a)
-![image](https://github.com/user-attachments/assets/d6db6291-555a-48ee-89a4-bbaedceef87d)
-![image](https://github.com/user-attachments/assets/1a44bbd2-f210-466c-bac8-673acd5e20a6)
+![Kedua](https://github.com/user-attachments/assets/2f174e17-9dd5-460f-8ef5-066764f50ce6)
+![ketiga](https://github.com/user-attachments/assets/ab5592e2-5cf0-483e-a8fd-0e14df88381a)
+![keempat](https://github.com/user-attachments/assets/c29b6828-651d-4a87-b6f0-a542c27c9e97)
 
 Lalu Terdapat beberapa hint dari hasil stream yang lainnya yang menunjukkan identitas username, Nama file yang dikirim dan petunjuk mendapatksan string password.
 
 Lalu dengan mengikuti dan mengarah ke peraturan praktikunm yang tersedia didapatkan hasil string password yang ada
 
-![image](https://github.com/user-attachments/assets/6483356f-c8e2-4933-9e9f-c2eeb116cb2d)
+![kelima](https://github.com/user-attachments/assets/a52be43b-c4ae-420e-8bd3-33f77d0a5c92)
 > Dengan encoding `base64` didapatkan hasilnya : `penword`
 
-![image](https://github.com/user-attachments/assets/edd83288-c2fc-4478-bf98-ffe226dc9f8b)
+![keenam](https://github.com/user-attachments/assets/66151fcc-1783-4746-a5f3-c9cad2174593)
 > Pendapatan hasil Flag
 
 nc 10.15.42.60 Port 44000
@@ -58,15 +58,15 @@ Dengan filtering `ftp` dan mencarinya secara manual
 ```
 ftp
 ```
-![image](https://github.com/user-attachments/assets/28c2480d-c184-4e35-b452-25bc9534269b)
+![21](https://github.com/user-attachments/assets/86a625ee-10a0-4b71-9424-589938cd9f3a)
 > Didapatkan hasil saat tcp stream salah satu paket
 
-![image](https://github.com/user-attachments/assets/804f54c5-488a-4c33-9c18-6355f2603caf)
+![801](https://github.com/user-attachments/assets/11923668-cedf-4018-9348-9e2f565d1d03)
 
 Terlihat dari sini dimana username `sn34ky` dan password `sup3rsn1ff3r` lolos autentikasi user.
 
 Lalu dengan mengakses Port 49000 terdapat pertanyaan tadi dalam meraih flag
-![WhatsApp Image 2024-09-18 at 22 39 37_c9353e91](https://github.com/user-attachments/assets/4a501de6-6af2-4e98-bcb2-bc72b6e4d041)
+![4a](https://github.com/user-attachments/assets/abc908b3-60ef-49ec-aa01-2c969b3bf76c)
 
 
 ## _Soal Surprise_
