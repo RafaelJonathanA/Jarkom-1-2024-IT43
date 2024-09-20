@@ -23,7 +23,7 @@
 
 ---
 
-![image](https://github.com/user-attachments/assets/51dd38a0-2a03-4e34-b829-c3b152e7c419)
+![Pertama](https://github.com/user-attachments/assets/b800cc4c-43a8-48a7-a322-41e9cfabbab9)
 ```
 tcp 
 ```
