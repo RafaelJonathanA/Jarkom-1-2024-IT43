@@ -151,22 +151,6 @@ Lalu eksekusi ke PORT
 ![WhatsApp Image 2024-09-18 at 21 49 21_f8e3621a](https://github.com/user-attachments/assets/bc5ccdc7-163e-4d45-b93e-ee50f49b4a24)
 > Pertanyaan dan peraihan flag
 
-## _Soal FTP Login_
-
-#### Pertanyaan
-
-- Apa username yang berhasil digunakan untuk FTP login?
-- Apa password yang berhasil digunakan untuk FTP login?
-
-
----
-
-Pertama saya mendownload file yang ada
-Kedua saya langsung memfilter dengan statistic lalu menu conversation lalu saya langsung mencari di setiap file yang ada dan saya menemukan usernamenya dan password yang digunakan 
-
-Flag : JarkomIT{n0t_s0_s3cur3_ftp_sdFFEPlcdJNaE3Tn2fs1tpdihL0Y5goLWYNHcMsWAx4HKvKyV9j9G1N}
-
-![FTP Login](https://github.com/user-attachments/assets/5c80992d-f74f-4501-858f-4e62b237bf28)
 
 ## _Soal Pegawai Negeri Sebelah_
 
