@@ -1,4 +1,4 @@
-# Write-up Praktikum Modul 1 Jaringan Komputer
+# Laporan Resmi Praktikum Modul 1 Jaringan Komputer
 
 ### Wireshark
 
@@ -254,3 +254,6 @@ Pertama saya membuka file gajah terbang lalu saya menggunakan statistic dan conv
 Flag : JarkomIT{Gy4tT_M5g_4U_GdGpusLONVeRns0bsCPDYOLvw5k1rq9fHseecDt9LCorWGnovNZgmBiD1}
 
 ![Gajah Terbang](https://github.com/user-attachments/assets/7ea8c5ea-c257-4704-9d21-42e108c212f2)
+
+## Revisi
+> Tidak ada
