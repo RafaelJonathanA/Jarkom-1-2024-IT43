@@ -170,7 +170,7 @@ Flag : JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_Hiow4mM5G172RSwBA8w8YJhWLL30Aqhvwby
 
 [Pegawai Sebelah](https://github.com/user-attachments/assets/8bb7cb94-de77-4da2-a7ff-508f7b28285c)
 
-## _Soal Corporate Breach _
+## _Soal Corporate Breach_
 
 #### Pertanyaan
 
@@ -187,7 +187,7 @@ Flag : JarkomIT{supp0rt_k0k_l3m4h_bg_cv09tgcni7sDpEEaO4oyDxmfAG6XNddtZ7zBRYNW4Nx
 
 ![breach](https://github.com/user-attachments/assets/25294662-9d4f-4b10-9814-01ead716dc76)
 
-## _Soal Ez _
+## _Soal Ez_
 
 #### Pertanyaan
 
@@ -240,4 +240,106 @@ Flag : JarkomIT{Gy4tT_M5g_4U_GdGpusLONVeRns0bsCPDYOLvw5k1rq9fHseecDt9LCorWGnovNZ
 ![Gajah Terbang](https://github.com/user-attachments/assets/7ea8c5ea-c257-4704-9d21-42e108c212f2)
 
 ## Revisi
-> Tidak ada
+
+## _Packets Barrage_
+
+#### Pertanyaan
+
+- Apa IP address dari attacker?
+- Berapa total attempt dari bruteforce attacker?
+- Apa nama file yang didownload oleh attacker setelah berhasil login?
+- Apa isi dari file yang disisipkan oleh attacker?
+
+---
+**Jawaban**
+- IP address dari attacker adalah '172.21.80.1' yang bisa ditemukan secara langsung di bagain statistic lalu conversation
+- Total bruteforce dari attacker adalah '1917' yang bisa dilihat dari statistic lalu conversation dan bisa dilihat totalnya adalah 1920 namun ada 3 bagain yang bukan merupakan mencoba login sehingga jumlah bruteforcenya 1917 
+- Nama file yang didownload adalah 'Albatros.txt' yang bisa dilihat dari salah satu dari 3 stream yang tidak termasuk brute force disana akan terlihat bahwa albatros.txt yang di download 
+- Isi dari file yang disisipkan oleh attacker adalah 'Der Rote Kampfflieger' yang bisa dilihat dari salah satu dari 3 stream yang tidak termasuk brute force disana akan terlihat pesan ini 
+
+#### Flag : JarkomIT{th3_fly1ng_c1rcus_0f_w4r_QpkkCuJeBhRn4u5FAtKq5LfMg5St0gpa6qprvTuyfTHll08hrTIOIACE}
+![Packet Bargabe](https://github.com/user-attachments/assets/74285673-330d-4893-b30f-842d6ae68d1f)
+
+## _Gajah Terbang (Attacker Recon)_
+
+#### Pertanyaan
+
+- Akun apa yang dimiliki oleh penyerang dalam database tersebut, berikan emailnya!
+- Apa password yang digunakan oleh penyerang?
+- Pada tanggal berapa akun penyerang diban?
+- Table apa saja yang dimodifikasi oleh penyerang?
+- Barang apa saja yang telah dibeli oleh penyerang?
+- Berapa total transaksi dari barang yang dibeli oleh penyerang?
+- 
+
+---
+**Jawaban**
+- Akun yang dimiliki oleh penyerang tersebut adalah 'kuntoajiisrillll@gmail.com' yang bisa terlhat pada salah satu stream saat di statistic lalu di conversation 
+- Password yang digunakan penyerang 'kissme' yang didapatkan dari mendekripsi password yang ada pada salah satu stream saat di statistic lalu di conversation
+- Tanggal berapa akun penyerang di ban yaitu '2024-06-09' yang bisa dilihat pada salah satu stream saat di statistic lalu di conversation
+- Tabel yang dimodifikasi oleh penyerang adalah 'users dan banned_users' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation
+- barang yang dibeli oleh penyerang adalah 'rokok dan es krim' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation
+- Total transaksi barang dibeli '24500' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation dimana terdapat harga rokok dan es krim selanjutnya hanya tinggal menjumlahkannya dan kita mendapatkan 24500
+
+#### Flag : JarkomIT{G4jaH_K0k_t3RbaNG_g1ZgSfLnPYEIKj36idTWraN2XYntAFIIvb3VuVOB65ardj8NgSB4wKt5} 
+![Gajah Terbang 2](https://github.com/user-attachments/assets/ddb7c7e9-f20b-4d59-8216-f4274fa2e5e4)
+
+## _Stegography_
+
+#### Pertanyaan
+
+- Ada berapa banyak gambar yang dikirim?
+- Nama-nama file yang memiliki pesan? (Berurut abjad)
+- Apa pesannya jika digabung?
+
+---
+**Jawaban**
+- Jumlah gambar yang dikirim adalah '13' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation
+- Nama-nama file yang memiliki pesan adalah 'ATP, EH, KJK' yang dapat dilihat dari mengekstrak semua gambar yang ada dengan export object lalu pilih yang FTP data lalu setelah itu kita hanya tinggal menjalankan script python yang telah diberikan dengan sedikit pengeditan sehingga nanti terlihat file apa saja yang memiliki pesan 
+- Pesannya saat digabung akan menjadi 'pahlawan keamanan siber' yang bisa kita lihat dari pembalikan semua pesan yang sudah kita dapatkan sebelumnya 
+
+
+#### Flag : JarkomIT{S3LaM4t_p4rA_PahL4WaN_VfB7jsDOw18RaHkX0OqqFT02BP5slNjOOsLH3uPvSYHsTj5HdOEXkhC5}
+![Stetography](https://github.com/user-attachments/assets/44208e39-830e-4a67-8d29-cd6542cf69e4)
+
+
+## _inneRCE_
+
+#### Pertanyaan
+
+- Kapan hacker berhasil mengupload webshell?
+- Endpoint url dan server mana yang rentan sehingga dapat dihack oleh hacker?
+- Nama webshell yang diupload oleh hacker?
+- Command pertama yang berhasil dieksekusi oleh hacker?
+- Berdasarkan log, hacker tersebut mencoba menuliskan pesan, apa pesan yang hacker coba tuliskan?
+
+---
+**Jawaban**
+- Hacker berhasil menguploud webshell saat '2024-09-16 13:18:05' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation namun jamnya perlu diubah sedikit karena di stream masih GMT 
+- Endpoint url dan server yang dihack adalah '/upload.php_server-app' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation
+- Nama webshell yang diuploud oleh hacker adalah 'idzoyyshell.php' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation
+- Command pertama yang berhasil dieksekusi oleh hacker adalah 'whoami' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation 
+- Pesan yang hacker coba tuliskan adalah 'pls rate soal ini' yang didapat dari mendekripsi password yang dapat dilihat pada salah satu stream yang ada di statistic lalu conversation 
+
+
+#### Flag : JarkomIT{P4L1nG_g4mPaNg_An4L1sA_W3b_aTk_2Y5jKMcIuj7lntfGepYstdshrW4iJ2oQ2vHAT23jFVUeUvx6PoejnRCE}
+![innerce](https://github.com/user-attachments/assets/9e8d348f-92d1-414a-a59c-d9d0b1996511)
+
+## _22 Nightmare_
+
+#### Pertanyaan
+
+- File yang dikirim penyerang?
+- Apa nama file yang dikirim?
+- Pada stream keberapa file kedua dikirim setelah file pertama?
+- Siapa asli nama pengirim?
+
+---
+**Jawaban**
+- File yanng dikirim oleh penyerang adalah 'Sh1k4.jpg' yang dapat dilihat pada salah satu stream saat di statistic lalu di conversation
+- Nama file yang dikirim adalah 'NUN' yang bisa dilihat pada gambar yang bisa kita save dengan export object lalu pilih yang FTP data lalu tinggal kita save dan kita buka filenya
+- Stream keberapa file kedua dikrim setelah file pertama dikirim yaitu '141' yang bisa kita hitung dari berapa jumlah perbedaan nomor stream saat mengirim Sh1k4.jpg dengan noko.py sehingga mendapatkan 141 
+- Nama asli pengirim adalah 'Torako Koshi' yang bisa kita dapatkan dari melihat pada noko.py yang bisa didownload pada gambar yang bisa kita save dengan export object lalu pilih yang FTP data lalu tinggal kita save setelah itu kita tinggal membuka filenya maka akan mendapatkan sebuah string yang telah di enkripsi dan kita bisa mendekripsinya dengan key dari NUN setelah itu kita akan mendapatkan nama Toraka Koshi
+
+#### Flag : JarkomIT{Sh1k4n0ko_N0_k05h1tan_FKepW2jj02Mm8yAWrXnP0oX7t7AnMH7yWR1Cx7nQrt5ZyUmO5bkM2UNU}
+![22 Nightmare](https://github.com/user-attachments/assets/24aa5100-cef6-4232-9f1d-d495aa832126)
