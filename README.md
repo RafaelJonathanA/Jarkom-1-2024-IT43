@@ -353,3 +353,16 @@ Flag : JarkomIT{Gy4tT_M5g_4U_GdGpusLONVeRns0bsCPDYOLvw5k1rq9fHseecDt9LCorWGnovNZ
 
 ---
 **Jawaban**
+- Dari file innerchild.pcap, terlihat timestamp belum diubah seperti format yang diminta.
+![time](https://github.com/user-attachments/assets/abfe8dcb-5c13-4447-8f61-44db79957a14)
+
+- Lalu Mengubah format time of day agar Wireshark menampilkan waktu dalam format dan mendapat waktu awal untuk mendapatkan jawaban pertanyaan pertama
+![hasiltime](https://github.com/user-attachments/assets/9b053cf7-7383-414a-888e-1fa7bd81ad40)
+
+- Di soal selanjutnya bisa menggunakan skrip dari project folder git clone https://github.com/5h4rrK/CTF-Usb_Keyboard_Parser.git.
+![string](https://github.com/user-attachments/assets/2856ebfe-6920-4c04-9a00-b4216710b767)
+
+ Disini setelah menjalankan perintah di atas, parser akan memproses file .pcap dan mencoba mengekstrak keystrokes dari data HID yang ditemukan di file tersebut. Output-nya akan menunjukkan apa yang diketikkan oleh hacker.
+
+#### Flag : `JarkomIT{4ku_p9n_j4d1_h3n9k3r_IsBZ5qIScJiI6y8xhvln4mSkiAm1IzRfVwuFt1foukB8EX39tdk8BHCK}`
+![image](https://github.com/user-attachments/assets/30fd4ce7-11ae-4a44-a927-aa4828048e4f)
