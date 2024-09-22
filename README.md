@@ -343,3 +343,13 @@ Flag : JarkomIT{Gy4tT_M5g_4U_GdGpusLONVeRns0bsCPDYOLvw5k1rq9fHseecDt9LCorWGnovNZ
 
 #### Flag : JarkomIT{Sh1k4n0ko_N0_k05h1tan_FKepW2jj02Mm8yAWrXnP0oX7t7AnMH7yWR1Cx7nQrt5ZyUmO5bkM2UNU}
 ![22 Nightmare](https://github.com/user-attachments/assets/24aa5100-cef6-4232-9f1d-d495aa832126)
+
+## _Baby Hengker_
+
+#### Pertanyaan
+
+- Kapan hacker mengakses komputer lab
+- String apa yang dituliskan hacker
+
+---
+**Jawaban**
