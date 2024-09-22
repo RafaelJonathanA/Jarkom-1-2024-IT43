@@ -377,6 +377,7 @@ Flag : JarkomIT{Gy4tT_M5g_4U_GdGpusLONVeRns0bsCPDYOLvw5k1rq9fHseecDt9LCorWGnovNZ
 ---
 **Jawaban**
 - Request dari host untuk mendapatkan informasi descriptor perangkat. Berdasarkan Device Descriptor yang kamu tampilkan di gambar, perangkat yang digunakan adalah Mouse.
+  
 ![MS](https://github.com/user-attachments/assets/cab28be1-5ef2-4bf9-8ca2-f4dbf08e0a54)
 ![MS2](https://github.com/user-attachments/assets/8eb97a5a-2ae6-4abb-bab3-31de9d0816c5)
 
